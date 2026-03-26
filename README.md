@@ -53,9 +53,10 @@ GET /compare?symbol1=INFY&symbol2=TCS
 git clone `<repo>`{=html} cd backend pip install -r requirements.txt
 python app.py
 
-## 📄 API Docs
+## 📄 Live 
 
-http://localhost:8000/docs
+https://app.netlify.com/projects/stock-data-intelligence-dashboard/overview
+https://stock-data-intelligence-dashboard-1-mf9y.onrender.com/
 
 ## 🚀 Deployment
 

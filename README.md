@@ -55,8 +55,8 @@ python app.py
 
 ## 📄 Live 
 
-https://app.netlify.com/projects/stock-data-intelligence-dashboard/overview
-https://stock-data-intelligence-dashboard-1-mf9y.onrender.com/
+---->  https://app.netlify.com/projects/stock-data-intelligence-dashboard/overview
+---->  https://stock-data-intelligence-dashboard-1-mf9y.onrender.com/
 
 ## 🚀 Deployment
 

@@ -1,0 +1,12 @@
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env*
+
+# Backend
+backend/__pycache__/
+backend/*.py[cod]
+backend/venv/
+backend/.env
+backend/instance/
+backend/*.db      <-- This ignores your SQLite test data

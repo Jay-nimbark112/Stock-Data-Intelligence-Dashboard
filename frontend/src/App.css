@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap');
+
+:root {
+  --bg-dark: #061612;
+  --glass: rgba(20, 35, 30, 0.7);
+  --neon: #10b981;
+  --text: #ecfdf5;
+}
+
+body {
+  margin: 0; background: var(--bg-dark); color: var(--text);
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.app-container { display: flex; height: 100vh; }
+
+.sidebar {
+  width: 260px; background: rgba(0,0,0,0.4); 
+  border-right: 1px solid rgba(255,255,255,0.1);
+  padding: 2rem 1.5rem;
+}
+
+.nav-btn {
+  width: 100%; padding: 12px; margin-bottom: 10px;
+  background: transparent; border: 1px solid transparent;
+  color: #6ee7b7; cursor: pointer; border-radius: 8px; text-align: left;
+}
+
+.nav-btn.active { background: var(--neon); color: #061612; font-weight: bold; }
+
+.main-content { flex: 1; padding: 3rem; overflow-y: auto; }
+
+/* Fixed Header */
+.header-section { display: flex; flex-direction: column; gap: 8px; margin-bottom: 2rem; }
+.header-section h1 { margin: 0; font-size: 2.8rem; line-height: 1.1; }
+.header-section p { margin: 0; color: #6ee7b7; font-size: 1rem; opacity: 0.8; }
+
+.stats-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-bottom: 2rem; }
+.stat-card { background: var(--glass); padding: 1.5rem; border-radius: 15px; border: 1px solid rgba(255,255,255,0.1); }
+
+.chart-box { background: var(--glass); padding: 2rem; border-radius: 20px; height: 400px; border: 1px solid rgba(255,255,255,0.1); }
+
+.filter-btn {
+  background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);
+  color: white; padding: 6px 15px; border-radius: 20px; cursor: pointer; margin-right: 10px;
+}
+.filter-btn.active { border-color: var(--neon); color: var(--neon); }
